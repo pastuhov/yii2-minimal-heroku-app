@@ -2,8 +2,10 @@
 
 require(__DIR__ . '/../vendor/autoload.php');
 
-$dotenv = new Dotenv\Dotenv(__DIR__ . '/../');
-$dotenv->load();
+if (getenv('YII_ENV') !== 'prod') {
+	$dotenv = new Dotenv\Dotenv(__DIR__ . '/../');
+	$dotenv->load();
+}
 
 // comment out the following two lines when deployed to production
 defined('YII_DEBUG') or define('YII_DEBUG', getenv('YII_DEBUG') === 'true');
