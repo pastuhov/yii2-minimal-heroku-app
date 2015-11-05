@@ -1,0 +1,6 @@
+{
+  "name": "PHP Yii2 Getting Started",
+  "description": "A barebones PHP app that makes use of the Yii2 web framework",
+  "repository": "https://github.com/pastuhov/yii2-minimal-heroku-app",
+  "addons": []
+}
