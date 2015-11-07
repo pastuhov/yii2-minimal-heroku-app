@@ -1,7 +1,8 @@
 {
     "require" : {
         "yiisoft/yii2": "2.0.6",
-        "vlucas/phpdotenv": "v2.1.0"
+        "vlucas/phpdotenv": "v2.1.0",
+        "baibaratsky/yii2-rollbar": "1.1.*"
     },
     "require-dev": {
         "heroku/heroku-buildpack-php": "*",
